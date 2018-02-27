@@ -1,0 +1,240 @@
+/* ESTILOS GENERALES */
+
+body {
+  background-color: #FFFFFF;
+  color: #305050; }
+
+footer .nav-item {
+  font-size: .7em; }
+  footer li a i:hover{
+    opacity: 0.5;
+  }
+
+small{
+  display: block
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+.navbar {
+  font-family: "Catamaran";
+  background-color: transparent;
+}
+.navbar .navbar-brand img{
+  height: 45px;
+}
+.navbar .nav-link {
+  font-weight: bold;
+  font-size: 1.2em; }
+.navbar .collapse.show {
+  background-color: rgba(85,178,198,1);
+  text-align: center;
+}
+#principal .navbar .collapse .nav-item a{
+  color: #c6E5EC;
+}
+#pricipal .navbar .collapse .nav-item .nav-link:hover{
+  box-shadow: 0px 3px 0px 0px #C6E5EC;
+}
+
+.navbar .collapse .oferta{
+  color: #ed523d;
+}
+.btn-outline-light:hover {
+  color: #1273DA; }
+
+#concrete {
+  background-color: #87AA3C; }
+
+#window .window {
+  padding-top: 7em;
+  height: 100%; }
+
+#iconosPie ul li img {
+  height: 2em; }
+
+/* HOME SECTION */
+
+#home-section {
+  background-image: url("../img/noviembre.png");
+  min-height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center}
+  #home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+    #home-section .dark-overlay .home-inner {
+      padding-top: 80px;
+      color: #FFFFFF; }
+      #home-section .dark-overlay .home-inner .banner{
+        margin-top: 3em;
+      }
+      #home-section .dark-overlay .home-inner #checkout h1{
+        text-shadow: 3px 3px 5px gray;
+      }
+      #home-section .dark-overlay .home-inner #checkout .texto .img-thumbnail{
+        background-color: transparent;
+        border: none;
+      }
+      #home-section .dark-overlay .home-inner .h3 {
+        text-shadow: 1px 1px 10px #305050; }
+      #home-section .dark-overlay .home-inner .card {
+        background-color: #ED523D;
+        opacity: .8; }
+        #home-section .dark-overlay .home-inner .card .card-body h3 .fa {
+          color: #FFFFFF; }
+      #home-section .dark-overlay .home-inner .fa-check {
+        color: #87AA3C;
+        background-color: #FFFFFF;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: 30px; }
+
+#formulario a {
+  font-size: 1.2rem;}
+  #formulario button {
+    margin: 0 1rem;
+    background-color: #483D8B;
+  }
+    #formulario button a{
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+#formverde button {margin: 0 1rem;}
+    #formverde a {
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+#present i {
+  font-size: .6em; }
+
+#manual {
+  background-color: #DE673F; }
+
+#servicios {
+  background-color: #DE673F; }
+
+#gallery .card {
+  width: 20rem; }
+
+#informacion {
+  background-color: #F0B033;}
+  #informacion a{
+  font-weight: bold;
+}
+
+#contact .card h6{
+  font-weight: 600;
+}
+  
+.hormigon h3, .acero h3 {
+  padding-bottom: .5em;
+  border-bottom: 1px solid #305050; }
+
+#accordion .card-header {
+  background-color: #004085; }
+  #accordion .card-header a, #accordion .card-header i {
+    color: #cce5ff; }
+    #accordion .card-header a:hover, #accordion .card-header i:hover {
+      text-decoration: none; }
+  #accordion .card-header i {
+    font-size: 1.2em; }
+
+#barraaceptacion {
+  display: none;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 5px;
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  min-height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  z-index: 99999; }
+  #barraaceptacion .inner {
+    width: 100%;
+    position: absolute;
+    padding-left: 5px;
+    font-family: verdana;
+    font-size: 12px;
+    top: 30%; }
+    #barraaceptacion .inner a.ok {
+      padding: 4px;
+      color: #00ff2e;
+      text-decoration: none; }
+    #barraaceptacion .inner a.info {
+      padding-left: 5px;
+      text-decoration: none;
+      color: #faff00; }
+
+/* GALERIA DE FOTOS */
+
+.gallery-title{
+  font-size: 36px;
+  color: #42B32F;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #5e5e5e;
+}
+.port-image{
+  width: 100%;
+}
+.gallery_product{
+  margin-bottom: 30px;
+}
+
+/* OFERTAS */
+
+#oferta .card .card-footer .lista-oferta li{
+  list-style: none;
+}
+#oferta .card .card-header span{
+  font-size: .5em;
+}
+
+/* MEDIA QUERYS RESPONSIVE */
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+    text-align: center; }
+  #barraaceptacion {
+    visibility: hidden; } }
+
+@media (max-width: 576px) {
+  .navbar .navbar-brand img{
+    height: 35px !important;
+  }
+  #checkout .h3 {
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 3px solid #B0E0E6;
+  }
+  #checkout .check {
+    display: none;
+  }
+  #informacion a {
+    display: block;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    font: bold 1.2rem sans-serif;
+  }
+ }

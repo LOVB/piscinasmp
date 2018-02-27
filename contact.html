@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Piscinas MP ~ Contacto</title>
+  <meta name="author" content="Luis V Ballesteros">
+  <meta name="owner" content="Grupo Mundoline">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="Construccion de piscinas, piscinas mp, piscinas Mundoline, piscinas en sanlucar, contacto piscinas, contacto mundoline, piscinas de acero, piscinas de hormigón, piscinas de madera, piscinas baratas de hormigón, piscinas baratas de acero, piscinas baratas de madera, construcción de piscinas en Sanlúcar de Barrameda">
+  <meta name="description" content="Para que te pongas en contacto con nosotros tenemos este formulario para que nos llegue toda la información necesaria para aclarar tus dudas.">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:200,400,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- IMPLEMENTACIÓN GOOGLE ANALYTICS -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-82975301-3', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K7Q653K');
+  </script>
+  <!-- Google CAPTCHA -->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
+</head>
+<body id="window">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div  class="container">
+      <a href="https://www.piscinasmp.com/" class="navbar-brand"><img src="img/piscinasmp.png" alt="logo" style="height: 45px"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" >
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="https://www.piscinasmp.com/ofertas.html" class="nav-link text-danger">OFERTAS</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.piscinasmp.com/build.html" class="nav-link">CONSTRUCCIÓN</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.piscinasmp.com/services.html" class="nav-link">SERVICIOS</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.piscinasmp.com/gallery.html" class="nav-link">GALERÍA</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.piscinasmp.com/contact.html" class="nav-link active">CONTACTO</a>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- HOME SECTION -->
+
+  <section id="contact" class="window mb-5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 mb-3">
+          <div class="card border-success">
+            <div class="card-body">
+              <h3 class="card-title text-center"><i class="fa fa-info-circle" aria-hidden="true"></i> Solicita información</h3>
+              <h6 class="card-subtitle text-muted text-center">Por favor, rellena <u>todos</u> los datos</h6>
+
+              <form method="post" action="contacto.php" runat="server" enctype="multipart/form-data" >
+                <div class="form-group">
+                  <label for="name" class="text-muted">Nombre</label>
+                  <input type="text" class="form-control" name="nombre" required>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="text-muted">Email</label>
+                  <input type="email" class="form-control" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="mobil" class="text-muted">Teléfono Móvil</label>
+                  <input type="text" class="form-control" name="telefono" required>
+                </div>
+                <div class="form-group">
+                  <label for="city" class="text-muted">localidad</label>
+                  <input type="text" class="form-control" name="localidad" required>
+                </div>
+                <div class="form-group">
+                  <label for="name" class="text-muted">Comentarios</label>
+                  <textarea name="mensaje" class="form-control"></textarea>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6LfwHkgUAAAAAPLdx9KztoSB80d9_oNdcr77U8rm"></div>
+                <div class="modal-footer d-flex justify-content-around">
+                  <button class="submit btn btn-success btn-lg" type="submit" value="enviar">Enviar</button>
+                  <button class="submit btn btn-danger btn-lg" type="reset" value="reset">Borrar datos</button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card border-primary">
+            <blockquote class="card-body card-blockquote">
+              <h6><i class="fa fa-vcard-o" aria-hidden="true"></i> Dirección</h6>
+              <p>Doctor Salvador Gallardo, 2. Sanlúcar de Bda. (Cádiz)</p>
+              <hr>
+              <h6><i class="fa fa-phone-square" aria-hidden="true"></i> Teléfono</h6>
+              <p><a href="tel:+34956360759">956 360 759</a></p>
+              <hr>
+              <h6><i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp</h6>
+              <p>654 182 268</p>
+              <hr>
+              <h6><i class="fa fa-envelope-o" aria-hidden="true"></i> Correo electónico</h6>
+              <p><a href="mailto:info@grupomundoline.com">info@grupomundoline.com</a></p>
+            </blockquote>
+            <div class="embed-responsive embed-responsive-1by1">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.760554928357!2d-6.36362558531508!3d36.77631127674494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0dde2c4b6ea9fd%3A0x70893661c79dd239!2sGrupo+MUNDOLINE!5e0!3m2!1ses!2ses!4v1505407324090" width="400" height="350" frameborder="1" style="border:2" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- FOOTER -->
+
+<footer class="bg-dark text-light">
+  <div class="container">
+    <div class="row pt-3  align-items-center">
+      <div class="col-md-4 text-center">
+        <a href="http://www.grupomundoline.com" class="px-5">
+          <img src="img/logo_blanco.png" alt="logo mundoline" style="height: 80px">
+        </a>
+      </div>
+      <div class="col-md-4 text-center">
+          <span>2017 &copy todos los derechos reservados</span>  
+      </div>
+      <div class="col-md-4 text-center">
+        <ul class="nav justify-content-around pt-2">
+          <li class="nav-item"><a href="https://www.facebook.com/grupomundoline"><i class="fa fa-facebook fa-2x text-light"></i></a></li>
+          <li class="nav-item"><a href="https://twitter.com/Grupo_MUNDOLINE"><i class="fa fa-twitter fa-2x text-light"></i></a></li>
+          <li class="nav-item"><a href="https://plus.google.com/104024694869657409470"><i class="fa fa-google fa-2x text-light"></i></a></li>
+          <li class="nav-item"><a href="https://es.pinterest.com/grupomundoline/"><i class="fa fa-pinterest fa-2x text-light"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center py-2">
+        <h3><i class="fa fa-phone-square" aria-hidden="true"></i> 956 360 759</h3>
+      </div>
+    </div>
+    <div class="row pb-3">
+      <div class="col">
+        <ul class="nav nav-fill justify-content-center">
+          <li class="nav-item"><a class="nav-link text-muted" href="avisoLegal.html">Aviso Legal</a></li>
+          <li class="nav-item"><a class="nav-link text-muted" href="avisoLegal.html#normasuso">Normas de uso</a></i></li>
+          <li class="nav-item"><a class="nav-link text-muted" href="#" data-toggle="modal" data-target="#contactModal">Trabaja con nosotros</a></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+  <!-- ICONOS PIE DE PAGINA -->
+  
+  <div class="container my-3" id="iconosPie">
+    <div class="row">
+      <div class="col">
+        <ul class="nav nav-fill justify-content-center">
+          <li class="nav-item"><img src="img/consejeria.gif" alt="consejeria" class="img-fluid"></li>
+          <li class="nav-item"><img src="img/junta.gif" alt="juntaAndalucia" class="img-fluid"></li>
+          <li class="nav-item"><img src="img/ue.gif" alt="unionEuropea" class="img-fluid"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!--//BLOQUE COOKIES-->
+  <div id="barraaceptacion" style="display: block;">
+    <div class="inner">
+        Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real 
+        Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.
+        <a href="javascript:void(0);" class="ok" onclick="PonerCookie();"><b>OK</b></a> | 
+        <a href="http://politicadecookies.com" target="_blank" class="info">Más información</a>
+    </div>
+  </div>
+  
+  <!-- LIBRERIA DE SCRIPTS -->
+  
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      function getCookie(c_name){
+        var c_value = document.cookie;
+        var c_start = c_value.indexOf(" " + c_name + "=");
+        if (c_start == -1){
+            c_start = c_value.indexOf(c_name + "=");
+        }
+        if (c_start == -1){
+            c_value = null;
+        }else{
+            c_start = c_value.indexOf("=", c_start) + 1;
+            var c_end = c_value.indexOf(";", c_start);
+            if (c_end == -1){
+                c_end = c_value.length;
+            }
+            c_value = unescape(c_value.substring(c_start,c_end));
+        }
+        return c_value;
+      }
+    
+      function setCookie(c_name,value,exdays){
+        var exdate=new Date();
+        exdate.setDate(exdate.getDate() + exdays);
+        var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+        document.cookie=c_name + "=" + c_value;
+      }
+    
+      if(getCookie('tiendaaviso')!="1"){
+        document.getElementById("barraaceptacion").style.display="block";
+      }
+      function PonerCookie(){
+        setCookie('tiendaaviso','1',365);
+        document.getElementById("barraaceptacion").style.display="none";
+      }
+    </script>
+    
+</body>
+</html>
