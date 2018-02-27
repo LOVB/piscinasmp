@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+:root{
+  --background-color: #102340;
+  --texto: #26f7a6;
+}
+h1,h2{
+  color: var(--texto);
+}
+body{
+  background-color: var(--background-color);
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+.box{
+  margin: 3em 0;
+  padding: 1em;
+  box-shadow: 0 3px 25px 3px #111;
+}
+.box h1{
+  font-size: 7em;
+  padding: 0 1em;
+}
+.box h2{
+  margin: 1em 0;
+}
+.box .captcha img{
+  width: 15em;
+}
+.box .robot img{
+  margin: 1em 0;
+  width: 7em;
+}
+.box .btn{
+  background-color: var(--texto);
+  color: var(--background-color);
+  padding: 1em 3em; 
+  margin-bottom: 1em;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 280px) {
+  .box h1{
+    font-size: 3.6em;
+  }
+ }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 476px) {
+  .box h1{
+    font-size: 5em;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .box h1{
+    font-size: 6em;
+  }
+ }
+
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .box h1{
+    font-size: 7em;
+    color: green;
+  }
+ } */
+
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+ }*/

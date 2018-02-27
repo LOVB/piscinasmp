@@ -6,7 +6,6 @@ if(isset($response_recaptcha)&& $response_recaptcha){
   $ip = $_SERVER['REMOTE_ADDR'];
   $validation_server = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$response_recaptcha&remoteip=$ip");
 
-
   if(isset($_POST['email'])) {
 
   // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
@@ -39,8 +38,9 @@ if(isset($response_recaptcha)&& $response_recaptcha){
 
   header("location:index.html");
   }
+
 }else{
-      //header("location:404.html");
-      echo "Error en el formulario. Dede de marcar la casilla de verificación. Vuelva a intentarlo";
+  header("location:404.html");
 }
+
 ?>
